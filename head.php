@@ -10,4 +10,5 @@
             <link rel='icon' href='./img/favicon.ico' type=''>
         </head>
     ";
+    require ('link.php');
 ?>
