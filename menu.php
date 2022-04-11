@@ -27,13 +27,13 @@
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                         <li><a class="dropdown-item" href="index.php?main=ด้านร่างกาย (Physical Assessment)&sub=Time Up and Go Test (TUGT)">Time Up and Go Test (TUGT)</a></li>
-                        <li><a class="dropdown-item" href="oaknee.php">การคัดกรองโรคข้อเข่าเสื่อม</a></li>
-                        <li><a class="dropdown-item" href="oks.php">Oxford Knee Score</a></li>
-                        <li><a class="dropdown-item" href="eye.php">การคัดกรองสุขภาวะทางตา</a></li>
-                        <li><a class="dropdown-item" href="incon.php">การคัดกรองภาวะกลั้นปัสสาวะ</a></li>
-                        <li><a class="dropdown-item" href="sleep.php">การประเมินปัญหาการนอน</a></li>
-                        <li><a class="dropdown-item" href="mna.php">Mini Nutritional Assessment</a></li>
-                        <li><a class="dropdown-item" href="frt.php">การประเมินการได้ยิน</a></li>
+                        <li><a class="dropdown-item" href="oaknee.php?main=ด้านร่างกาย (Physical Assessment)&sub=การคัดกรองโรคข้อเข่าเสื่อม">การคัดกรองโรคข้อเข่าเสื่อม</a></li>
+                        <li><a class="dropdown-item" href="oks.php?main=ด้านร่างกาย (Physical Assessment)&sub=Oxford Knee Score">Oxford Knee Score</a></li>
+                        <li><a class="dropdown-item" href="eye.php?main=ด้านร่างกาย (Physical Assessment)&sub=การคัดกรองสุขภาวะทางตา">การคัดกรองสุขภาวะทางตา</a></li>
+                        <li><a class="dropdown-item" href="incon.php?main=ด้านร่างกาย (Physical Assessment)&sub=การคัดกรองภาวะกลั้นปัสสาวะ">การคัดกรองภาวะกลั้นปัสสาวะ</a></li>
+                        <li><a class="dropdown-item" href="sleep.php?main=ด้านร่างกาย (Physical Assessment)&sub=การประเมินปัญหาการนอน">การประเมินปัญหาการนอน</a></li>
+                        <li><a class="dropdown-item" href="mna.php?main=ด้านร่างกาย (Physical Assessment)&sub=Mini Nutritional Assessment">Mini Nutritional Assessment</a></li>
+                        <li><a class="dropdown-item" href="frt.php?main=ด้านร่างกาย (Physical Assessment)&sub=การประเมินการได้ยิน">การประเมินการได้ยิน</a></li>
                     </ul>
                 </li>
                 
@@ -43,8 +43,8 @@
                         <span>ด้านการทำหน้าที่<br>(Function Assessment)</span></a>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                        <li><a class="dropdown-item" href="adl.php">ADL</a></li>
-                        <li><a class="dropdown-item" href="chula.php">CHULA ADL</a></li>
+                        <li><a class="dropdown-item" href="adl.php?main=ด้านการทำหน้าที่ (Function Assessment)&sub=ADL">ADL</a></li>
+                        <li><a class="dropdown-item" href="chula.php?main=ด้านการทำหน้าที่ (Function Assessment)&sub=CHULA ADL">CHULA ADL</a></li>
                         
                     </ul>
                 </li>
@@ -54,11 +54,11 @@
                         <span>ด้านจิตสังคม<br>(Mental Assessment)</span></a>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                        <li><a class="dropdown-item" href="mmse.php">MMSE T-2002</a></li>
-                        <li><a class="dropdown-item" href="moca.php">MOCA-T</a></li>
+                        <li><a class="dropdown-item" href="mmse.php?main=ด้านจิตสังคม(Mental Assessment)&sub=MMSE T-2002">MMSE T-2002</a></li>
+                        <li><a class="dropdown-item" href="moca.php?main=ด้านจิตสังคม(Mental Assessment)&sub=MOCA-T">MOCA-T</a></li>
                         <li><a class="dropdown-item" href="2q.php?main=ด้านจิตสังคม(Mental Assessment)&sub=2Q">2Q</a></li>
                         <li><a class="dropdown-item" href="9q.php?main=ด้านจิตสังคม(Mental Assessment)&sub=9Q">9Q</a></li>
-                        <li><a class="dropdown-item" href="tgds.php">TGDS</a></li>
+                        <li><a class="dropdown-item" href="tgds.php?main=ด้านจิตสังคม(Mental Assessment)&sub=TGDS">TGDS</a></li>
                         
                     </ul>
                 </li>
@@ -68,9 +68,8 @@
                         <span>ประเมินปัจจัยเอื้อ<br>ต่อภาวะสุขภาพ</span>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                        <li><a class="dropdown-item" href="environment.php">Environment Assessment</a></li>
-                        <li><a class="dropdown-item" href="apgar.php">Social Assessment</a></li>
-                        
+                        <li><a class="dropdown-item" href="environment.php?main=ประเมินปัจจัยเอื้อ ต่อภาวะสุขภาพ&sub=Environment Assessment">Environment Assessment</a></li>
+                        <li><a class="dropdown-item" href="apgar.php?main=ประเมินปัจจัยเอื้อ ต่อภาวะสุขภาพ&sub=Social Assessment">Social Assessment</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -86,7 +85,7 @@
                 </li>
                 <hr class="sidebar-divider d-none d-md-block">
                 <li class="nav-item">
-                    <a class="nav-link" href="video.php">
+                    <a class="nav-link" href="video.php?main=Video ประกอบการสอน">
                         <i class="fas fa-fw fas fa-video"></i>
                         <span>Video ประกอบการสอน<br></span></a>
                 </li>
