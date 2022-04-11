@@ -57,7 +57,7 @@
                         <li><a class="dropdown-item" href="mmse.php">MMSE T-2002</a></li>
                         <li><a class="dropdown-item" href="moca.php">MOCA-T</a></li>
                         <li><a class="dropdown-item" href="2q.php?main=ด้านจิตสังคม(Mental Assessment)&sub=2Q">2Q</a></li>
-                        <li><a class="dropdown-item" href="9q.php">9Q</a></li>
+                        <li><a class="dropdown-item" href="9q.php?main=ด้านจิตสังคม(Mental Assessment)&sub=9Q">9Q</a></li>
                         <li><a class="dropdown-item" href="tgds.php">TGDS</a></li>
                         
                     </ul>
