@@ -61,6 +61,7 @@
                     <a class="collapse-item" href="mna.php">Mini Nutritional Assessment</a>
                     <!-- <a class="collapse-item" href="">IAD Severity Instrument</a> -->
                     <a class="collapse-item" href="frt.php">การประเมินการได้ยิน</a>
+                    <a class="collapse-item" href="osta.php">OSTA index</a>
 
                 </div>
             </div>
