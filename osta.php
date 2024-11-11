@@ -19,6 +19,7 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.css" rel="stylesheet">
+<link href="css/header-text.css" rel="stylesheet">
 
     <style>
         @import url("https://fonts.googleapis.com/css?family=Kanit");
@@ -114,6 +115,11 @@
                                         <button onclick="cal();" class="btn btn-primary btn-block" type="button" name="submit">คำนวน</button>
                                     </div>
                                 </div>
+                                <div class="row mt-2">
+                                    <div class="col-12">
+                                        <button onclick="cleardata();" class="btn btn-danger btn-block" type="button">ล้างข้อมูล</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         
@@ -144,18 +150,18 @@
                                                 <th>การพยาบาล</th>
                                             </tr>
                                         </thead>
-                                        <tbody>
-                                            <tr>
+                                        <tbody class="text-white">
+                                            <tr class="bg-danger">
                                                 <td>น้อยกว่า -4</td>
                                                 <td>ความเสี่ยงในการเกิดโรคกระดูกพรุนสูง</td>
                                                 <td>ส่งตรวจความหนาแน่นของมวลกระดูก</td>
                                             </tr>
-                                            <tr>
+                                            <tr class="bg-warning">
                                                 <td>อยู่ระหว่าง -4 ถึง -1</td>
                                                 <td>ความเสี่ยงต่อการเกิดโรคกระดูกพรุนปานกลาง</td>
                                                 <td>ส่งตรวจความหนาแน่นของมวลกระดูก</td>
                                             </tr>
-                                            <tr>
+                                            <tr class="bg-success">
                                                 <td>มากกว่า -1 ขึ้นไป</td>
                                                 <td>ความเสี่ยงในการเกิดโรคกระดูกพรุนต่ำ</td>
                                                 <td></td>
@@ -163,7 +169,7 @@
                                         </tbody>
                                     </table>
                                     <br>
-                                    <b><h5> การตรวจความหนาแน่นของมวลกระดูก (Bone mass density: BMD) โดยใช้เครื่องวัดมวลกระดูกโดยใช้รังสีเอกซเรย์ (Dual energy X-ray absorptiometry: DEXA) เป็นมาตรฐานในการวินิจฉัยโรคกระดูกพรุน </h5></b> <br>
+                                    <b><p> &nbsp;&nbsp;&nbsp;การตรวจความหนาแน่นของมวลกระดูก (Bone mass density: BMD) โดยใช้เครื่องวัดมวลกระดูกโดยใช้รังสีเอกซเรย์ (Dual energy X-ray absorptiometry: DEXA) เป็นมาตรฐานในการวินิจฉัยโรคกระดูกพรุน </h5></b> <br>
                                     <div class="container d-flex justify-content-center mt-2">
                                         <table class="table table-bordered table-sm table-striped" style="font-size: 12px;">
                                                 <thead>
@@ -204,7 +210,7 @@
                            
                             <div class="col-md-12">
                                 <h5><b>การพยาบาล</b></h5>
-                                <div class="text-justify" style="font-size: 12px;">
+                                <div class="text-justify" style="font-size: 14px;">
                                     <b>1.</b> แนะนำการออกกำลังกายที่ช่วยลดการสูญเสียมวลกระดูก โดยเฉพาะการออกกำลังกายที่มีแรงกระแทกสูง หรือการออกกำลังกายที่มีการแบกรับนำ้หนักที่เหมาะสม
                                     และการออกกำลังกายที่มีแรงต้าน เช่น วิ่ง เดิน กระโดดเชือก วอลเลย์บอล โดยออกกำลังกายเป็นประจำ กลางแดดอ่อนๆ เพราะการได้รับแสงแดดจะเพิ่มการสังเคราะห์วิตามินดีทางผิวหนัง
                                     <br><b>2.</b> แนะนำการรับประทานอาหารให้ครบ 5 หมู่และรับประทานอาหารที่มีแคลเซียมสูง เช่น นม แนะนำการดื่มนมพร่องมันเนยวันละ 1-2 แก้ว/วัน โยเกิร์ต ปลาเล้กปลาน้อย
@@ -280,6 +286,7 @@
             var osta = 0.2 * (weight - age);
             document.getElementById("cal").textContent = "0.2 x (" + weight + "(น้ำหนัก กก.) - " + age + " (อายุ ปี))";
             document.getElementById("answer").textContent = osta.toFixed(1);
+            checkClass();
             if (osta < -4) {
                 document.getElementById('head-collour').classList.add('bg-danger');
                 document.getElementById('head-collour').textContent = 'ความเสี่ยงสูง';
@@ -300,6 +307,26 @@
             console.log("เอกสารโหลดเสร็จแล้ว");
             document.getElementById('show-cal').style.display = 'none';
         });
+        function checkClass() {
+            const element = document.getElementById("head-collour");
+            
+            if (element.classList.contains("bg-danger")) {
+                document.getElementById("head-collour").classList.remove("bg-danger");
+            } 
+            if (element.classList.contains("bg-warning")) {
+                document.getElementById("head-collour").classList.remove("bg-warning");
+            } 
+            if (element.classList.contains("bg-success")) {
+                document.getElementById("head-collour").classList.remove("bg-success");
+            } 
+        }
+        function cleardata(){
+            const weightElement = document.getElementById("weight");
+            document.getElementById('show-cal').style.display = 'none';
+            document.getElementById('weight').value = '';
+            document.getElementById('age').value = '';
+            weightElement.focus();
+        }
     </script>
 
 </body>

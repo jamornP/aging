@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    #header-text {
+        display: none; /* ตัวอย่างขนาดฟอนต์สำหรับหน้าจอมือถือ */
+    }
+    .sidebar-heading,h6{
+        font-size: 12px;
+    }
+    #logo,.img-fluid {
+        max-width: 65%;
+        height: auto;
+    }
+}

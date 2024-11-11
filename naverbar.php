@@ -17,7 +17,7 @@
         </button>
 
         <!-- Topbar Search -->
-        <a href="https://www.snc.ac.th/indexsnc.html">
+        <a id="logo" href="https://www.snc.ac.th/indexsnc.html">
         <img src="./img/logo1.png" class="img-fluid w-90" alt="...">
         </a>
         <h5 class="text-dark"><b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การประเมินสุขภาพผู้สูงอายุแบบองค์รวม<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Comprehensive Geriatric Assessment)</b></h5>
