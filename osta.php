@@ -169,8 +169,8 @@
                                         </tbody>
                                     </table>
                                     <br>
-                                    
                                 </div>
+                                
                                 <div class="col-md-6">
                                     <img src="./img/assessment/osta-index.jpg" alt="" class="w-100">
                                 </div>
@@ -205,6 +205,7 @@
                                             </table>
                                     </div>
                                 </div>
+
                             </div>
                             
                         </div>
@@ -314,6 +315,7 @@
             const element = document.getElementById("head-collour");
             
             if (element.classList.contains("bg-danger")) {
+
                // document.getElementById("head-collour").classList.remove("bg-danger");
             } 
             if (element.classList.contains("bg-warning")) {
@@ -321,6 +323,7 @@
             } 
             if (element.classList.contains("bg-success")) {
                // document.getElementById("head-collour").classList.remove("bg-success");
+
             } 
         }
         function cleardata(){
