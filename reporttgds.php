@@ -19,6 +19,7 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.css" rel="stylesheet">
+<link href="css/header-text.css" rel="stylesheet">
 
     <style>
     @import url("https://fonts.googleapis.com/css?family=Kanit");

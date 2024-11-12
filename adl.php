@@ -19,6 +19,7 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.css" rel="stylesheet">
+<link href="css/header-text.css" rel="stylesheet">
 
     <style>
     @import url("https://fonts.googleapis.com/css?family=Kanit");
@@ -76,7 +77,7 @@
                         <div class="row">
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/feed_0.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -99,7 +100,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/feed_1.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -121,7 +122,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/feed_2.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -156,7 +157,7 @@
                         <div class="row">
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/groom_0.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -178,7 +179,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/groom_1.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -213,7 +214,7 @@
                         <div class="row">
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/tranfer_0.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -236,7 +237,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/tranfer_1.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -259,7 +260,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/tranfer_2.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -282,7 +283,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/tranfer_3.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -316,7 +317,7 @@
                         <div class="row">
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/toilet_0.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -338,7 +339,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/toilet_1.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -361,7 +362,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/toilet_2.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -396,7 +397,7 @@
                         <div class="row">
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/mobility_0.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -418,7 +419,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/mobility_1.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -441,7 +442,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/mobility_2.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -463,7 +464,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/mobility_3.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -497,7 +498,7 @@
                         <div class="row">
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/dress_0.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -519,7 +520,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/dress_1.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -540,7 +541,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/dress_2.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -575,7 +576,7 @@
                         <div class="row">
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/stairs_0.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -597,7 +598,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/stairs_1.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -618,7 +619,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/stairs_2.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -653,7 +654,7 @@
                         <div class="row">
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/bath_0.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -675,7 +676,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/bath_1.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -711,7 +712,7 @@
                         <div class="row">
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/bowels_0.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -733,7 +734,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/bowels_1.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -754,7 +755,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/bowels_2.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -789,7 +790,7 @@
                         <div class="row">
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/bladder_0.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -812,7 +813,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/bladder_1.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -833,7 +834,7 @@
                             </div>
 
                             <!-- Earnings (Monthly) Card Example -->
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <div class="card h-100">
                                     <img src="img/assessment/bladder_2.png" class="card-img-top" alt="...">
                                     <div class="card-body">
@@ -859,11 +860,11 @@
                         <hr>
                         <div class="row">
 
-                            <!-- <div class="col-xl-3 col-md-4 mb-4">
+                            <!-- <div class="col-xl-3 col-md-6 mb-4">
                                 <input type="text" class="form-control form-control-user" id="exampleLastName"
                                     name="idstudent" placeholder="รหัสนักศึกษา">
                             </div>
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <select class="form-select" aria-label="Default select example" name="case_no">
                                     <option value="" selected>เลือกกรณีศึกษา </option>
                                     <option value="1">กรณีศึกษาที่ 1</option>
@@ -873,7 +874,7 @@
                                 </select>
                             </div> -->
 
-                            <div class="col-xl-3 col-md-4 mb-4">
+                            <div class="col-xl-3 col-md-6 mb-4">
                                 <button class="btn btn-primary btn-block" type="submit" name="submit">Submit</button>
 
                             </div>
