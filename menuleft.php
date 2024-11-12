@@ -115,7 +115,7 @@
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="csi.php">
                 <i class="fas fa-fw fas fa-procedures"></i>
                 <span>การประเมินผู้ดูแล<br></span></a>
         </li>
